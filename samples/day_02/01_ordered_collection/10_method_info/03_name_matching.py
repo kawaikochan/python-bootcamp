@@ -9,6 +9,8 @@ for attendee in range(attendee_count):
 
 print(attendee_names)
 
+print(attendee_names.count("chiyo"))
+
 # Print the number of attendees with the same name as you.
 #   Example:
 #       Same Name: 3

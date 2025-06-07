@@ -1,6 +1,8 @@
 names = ["Juan", "Maria", "Joseph"]
 tasks = ["Task 1", "Task 2", "Task 3"]
-
+for name in names:
+    for task in tasks:
+        print(name,task)
 # Print in the following format:
     # Juan - Task 1
     # Juan - Task 2

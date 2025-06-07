@@ -1,5 +1,8 @@
 student_names = ["Juan", "Maria", "Joseph"]
 student_scores = [70, 90, 81]
+for student_names,student_scores in zip(student_names,student_scores):
+    print(student_names,student_scores)
+    #print(f{""})
 
 # Print the student scores and names in the following format:
 # Student Records:

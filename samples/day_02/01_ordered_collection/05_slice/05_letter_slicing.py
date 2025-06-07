@@ -3,7 +3,9 @@ letters = [
     'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't',
     'u', 'v', 'w', 'x', 'y', 'z'
 ]
-
+print(letters[:3])
+print(letters[-3:])
+print(letters[7:12])
 # Print the following slices
 #   [‘a’, ‘b’, ‘c’]
 #   [‘x’, ‘y’, ‘z’]
